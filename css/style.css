@@ -1,0 +1,50 @@
+/* Styling for all pages */
+
+html{
+    background-image: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: Georgia, Helvetica, "Futura";
+
+}
+
+/* Styling for recipe pages */
+img {
+    display: block;
+    margin: auto;
+
+    height: 500px;
+    width: auto;
+
+}
+
+.food-title {
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling for index page */
+.main-page {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+.main-page h1 {
+    font-size: 2em;
+}
+
+.recipe-links ul {
+    list-style: none;
+    margin-right: 55px;
+    padding: 0;
+    
+}
+
+.recipe-links ul li {
+    display: inline-block;
+    margin: 50px 100px 50px 100px;
+    padding: 0px; 
+}
+
